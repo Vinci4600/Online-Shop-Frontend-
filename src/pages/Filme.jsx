@@ -10,6 +10,7 @@ function Filme() {
       .then(res => res.json())
       .then(data => setFilme(data));
   }, []);
+  
 
   return (
     <div className="filme-container">

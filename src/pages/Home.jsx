@@ -12,7 +12,7 @@ function Home() {
       <h2>Unsere Angebote</h2>
 
       <div className="Angebote">
-        <div className="card">
+        <div className="Gcard">
           <h3>Gaming Zubehör</h3>
           <button className="shopbutton">Zu den Artikeln</button>
         </div>
