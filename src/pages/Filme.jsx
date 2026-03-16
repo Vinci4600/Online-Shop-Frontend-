@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./components/styles/onlineshop.css";
 
 function Filme() {
 
@@ -11,17 +12,31 @@ function Filme() {
   }, []);
 
   return (
-    <div>
-      <h1>Filme</h1>
+    <div className="filme-container">
+      <h1 className="titel">Filme</h1>
 
-      {filme.map((film) => (
-        <div key={film.id}>
-          <h3>{film.titel}</h3>
-          <p>{film.beschreibung}</p>
-          <p>Jahr: {film.erscheinungsjahr}</p>
-          <p>Preis: {film.preis} €</p>
-        </div>
-      ))}
+      <div className="film-grid">
+        {filme.map((film) => (
+          <div className="film-card" key={film.id}>
+
+            <h2>{film.titel}</h2>
+
+            <p className="film-jahr">{film.erscheinungsjahr}</p>
+
+            <p className="film-beschreibung">{film.beschreibung}</p>
+
+            <p className="film-preis">{film.preis} CHF</p>
+
+            <iframe
+              src={`https://www.youtube.com/embed/${film.trailerUrl}`}
+              title={film.titel}
+              allowFullScreen
+            ></iframe>
+            <button className="shopbutton">In den Warenkorb</button>
+
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
