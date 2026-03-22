@@ -26,7 +26,7 @@ function Filme() {
 
             <p className="film-beschreibung">{film.beschreibung}</p>
 
-            <p className="film-preis">{film.preis} CHF</p>
+            <p className="film-preis">{film.preis} .CHF</p>
 
             <iframe
               src={`https://www.youtube.com/embed/${film.trailerUrl}`}
