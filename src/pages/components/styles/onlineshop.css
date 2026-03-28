@@ -187,3 +187,18 @@ iframe {
     background-position:center;
 }
 
+/**Login Style**/
+.loginBox {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+.loginbutton{
+  background-color: rgb(3, 238, 3);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+

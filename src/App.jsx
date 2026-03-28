@@ -4,6 +4,8 @@ import Filme from "./pages/Filme";
 import GamingZubehör from "./pages/GamingZubehör";
 import Games from "./pages/Games";
 import Login from "./pages/Login";
+import AdminPage from "./pages/AdminPage";
+import AdminRoute from "./pages/components/AdminRoute";
 
 import "./App.css";
 
@@ -25,6 +27,14 @@ function App() {
         <Route path="/gamingzubehör" element={<GamingZubehör />} />
         <Route path="/games" element={<Games />}/>
         <Route path="/login" element={<Login />}/>
+          <Route
+          path="/adminpage"
+          element={
+            <AdminRoute>
+              <AdminPage />
+            </AdminRoute>
+          }
+          />
        
       </Routes>
     </>

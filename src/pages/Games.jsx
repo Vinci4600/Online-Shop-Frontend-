@@ -4,6 +4,10 @@ import "./components/styles/onlineshop.css";
 function Games() {
 
   const [games, setGames] = useState([]);
+   const [titel, setTitel] = useState("");
+  const [beschreibung, setBeschreibung] = useState("");
+  const [preis, setPreis] = useState("");
+
 
   const BASE_URL = "http://localhost:8080";
 
@@ -12,7 +16,11 @@ function Games() {
       .then(res => res.json())
       .then(data => setGames(data))
       .catch(err => console.error(err));
+
+      
   }, []);
+   
+
   return (
     <div className="homepage">
       <h1 className="titel">Games</h1>
@@ -34,6 +42,7 @@ function Games() {
           </div>
         ))}
       </div>
+      
     </div>
    );
 }

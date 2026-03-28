@@ -5,44 +5,48 @@ function Login() {
   const [password, setPassword] = useState("");
 
   const handleLogin = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    // 🔑 Basic Auth Token erstellen
-    const auth = btoa(username + ":" + password);
+  const auth = btoa(username + ":" + password);
 
-    // speichern
-    localStorage.setItem("auth", auth);
+   if (!username || !password) {
+    alert("Bitte sowohl Benutzername als auch Passwort eingeben");
+    return; // Abbruch, wenn eines der Felder leer ist
+  }
 
-    // optional: Rolle setzen (einfach für jetzt)
-    if (username === "admin") {
-      localStorage.setItem("role", "ADMIN");
-    } else {
-      localStorage.setItem("role", "USER");
-    }
-
-    // weiterleiten
-    window.location.href = "/games";
+  const user = {
+    username: username,
+    role: username === "admin" ? "ADMIN" : "USER",
+    token: auth
   };
 
+  localStorage.setItem("user", JSON.stringify(user));
+
+  window.location.href = "http://localhost:5173/adminpage";
+};
+
   return (
-    <div>
+    <div className="homepage">
       <h2>Login</h2>
+      <div className="loginBox">
 
       <form onSubmit={handleLogin}>
         <input
           type="text"
           placeholder="Username"
           onChange={(e) => setUsername(e.target.value)}
-        />
+        /><br></br>
 
         <input
           type="password"
           placeholder="Passwort"
           onChange={(e) => setPassword(e.target.value)}
         />
+        <br></br>
 
-        <button type="submit">Login</button>
+        <button className="loginbutton" type="submit">Login</button>
       </form>
+      </div>
     </div>
   );
 }
