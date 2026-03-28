@@ -32,12 +32,15 @@ function Login() {
 
       <form onSubmit={handleLogin}>
         <input
+        className="inputstyle"
           type="text"
           placeholder="Username"
           onChange={(e) => setUsername(e.target.value)}
         /><br></br>
+        <br></br>
 
         <input
+        className="inputstyle"
           type="password"
           placeholder="Passwort"
           onChange={(e) => setPassword(e.target.value)}
@@ -46,6 +49,7 @@ function Login() {
 
         <button className="loginbutton" type="submit">Login</button>
       </form>
+      <p>Noch kein Login hier klicken bitte </p>
       </div>
     </div>
   );

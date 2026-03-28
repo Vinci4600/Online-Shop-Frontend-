@@ -202,3 +202,7 @@ iframe {
   transition: transform 0.2s ease;
 }
 
+.inputstyle{
+  border-radius: 20px;
+  padding: 10px;
+}
