@@ -1,16 +1,30 @@
-# React + Vite
+# Gaming Online Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Beschreibung
+Der Onlineshop ist ein eigenständiges Projekt zur praktischen Wiederholung und Vertiefung des erlernten Unterrichtsstoffs. Dabei werden die CRUD-Operationen (Create, Read, Update, Delete) umgesetzt und praktisch angewendet. Zusätzlich dient das Projekt als erster Einstieg in die Arbeit mit Spring Boot Security.
 
-Currently, two official plugins are available:
+## Ausführung des Onlineshop
+### 1. Projekt herunterladen
+Das Repository klonen oder die ZIP-Datei herunterladen. Dabei werden sowohl das Frontend als auch das Backend benötigt.
+### 2. ZIP-Datei extrahieren
+Falls das Projekt als ZIP-Datei heruntergeladen wurde, beide Projektordner extrahieren.
+### 3. Backend öffnen
+Das Backend in einer geeigneten Java-IDE öffnen.
+### 4. MySQL-Datenbank starten
+Im Terminal in den Ordner mySQLdb wechseln:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+cd .\mySQLdb\
 
-## React Compiler
+Anschließend die Docker-Container starten:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+docker compose up -d
+### 5. Backend starten
+Die Main-Klasse des Spring-Boot-Projekts starten.
+### 6. Frontend starten
+Das Frontend öffnen und im Terminal den Entwicklungsserver starten:
 
-## Expanding the ESLint configuration
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Anschließend kann der Onlineshop über die im Terminal angezeigte Adresse im Browser aufgerufen werden.
+
+
