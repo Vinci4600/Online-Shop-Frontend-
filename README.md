@@ -41,5 +41,12 @@ Anschließend kann der Onlineshop über die im Terminal angezeigte Adresse im Br
 <img width="1174" height="987" alt="image" src="https://github.com/user-attachments/assets/6598ee97-0f35-412b-9070-ff9669168cc2" />
 
 
+<img width="1171" height="969" alt="image" src="https://github.com/user-attachments/assets/b38124bd-3b06-4f3b-9037-ba2f656da5f5" />
+
+<img width="1178" height="979" alt="image" src="https://github.com/user-attachments/assets/c57f84b7-3285-4afa-9be8-7f4ad3d41c61" />
+
+
+
+
 
 
