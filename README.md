@@ -12,6 +12,8 @@ Falls das Projekt als ZIP-Datei heruntergeladen wurde, beide Projektordner extra
 <img width="836" height="200" alt="image" src="https://github.com/user-attachments/assets/e52d6fe7-02ca-4353-b6cd-665d4243fb41" />
 ### 3. Backend öffnen
 Das Backend in einer geeigneten Java-IDE öffnen.
+<img width="1907" height="730" alt="image" src="https://github.com/user-attachments/assets/6e14d987-f1a3-4fe1-bd23-271d12164b72" />
+
 ### 4. MySQL-Datenbank starten
 Im Terminal in den Ordner mySQLdb wechseln:
 <img width="1115" height="282" alt="image" src="https://github.com/user-attachments/assets/a3034727-f7ca-409f-85dc-3676d82ad669" />
