@@ -1,4 +1,4 @@
-<img width="1174" height="987" alt="image" src="https://github.com/user-attachments/assets/6598ee97-0f35-412b-9070-ff9669168cc2" /># Gaming Online Shop
+# Gaming Online Shop
 
 ## Beschreibung
 Der Onlineshop ist ein eigenständiges Projekt zur praktischen Wiederholung und Vertiefung des erlernten Unterrichtsstoffs. Dabei werden die CRUD-Operationen (Create, Read, Update, Delete) umgesetzt und praktisch angewendet. Zusätzlich dient das Projekt als erster Einstieg in die Arbeit mit Spring Boot Security.
@@ -37,7 +37,7 @@ Anschließend kann der Onlineshop über die im Terminal angezeigte Adresse im Br
 
 ## Bilder
 
-![Uploading image.png…]()
+<img width="1174" height="987" alt="image" src="https://github.com/user-attachments/assets/6598ee97-0f35-412b-9070-ff9669168cc2" />
 
 
 
