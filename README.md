@@ -30,6 +30,7 @@ Die Main-Klasse des Spring-Boot-Projekts starten.
 Das Frontend öffnen und im Terminal den Entwicklungsserver starten:
 
 npm run dev
+
 <img width="904" height="260" alt="image" src="https://github.com/user-attachments/assets/be00b7c0-9afe-4dd5-90d3-583492dba384" />
 
 
