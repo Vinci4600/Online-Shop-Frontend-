@@ -4,12 +4,16 @@
 Der Onlineshop ist ein eigenständiges Projekt zur praktischen Wiederholung und Vertiefung des erlernten Unterrichtsstoffs. Dabei werden die CRUD-Operationen (Create, Read, Update, Delete) umgesetzt und praktisch angewendet. Zusätzlich dient das Projekt als erster Einstieg in die Arbeit mit Spring Boot Security.
 
 ## Ausführung des Onlineshop
-### 1. Projekt herunterladen
-Das Repository klonen oder die ZIP-Datei herunterladen. Dabei werden sowohl das Frontend als auch das Backend benötigt.
-<img width="1119" height="554" alt="image" src="https://github.com/user-attachments/assets/d34510ac-225a-4c9d-8572-9fe6eb48d00d" />
-### 2. ZIP-Datei extrahieren
+### 1. Projekt Herunterladen
+Das Repository klonen oder die ZIP-Datei herunterladen.
+<img width="1136" height="558" alt="image" src="https://github.com/user-attachments/assets/cee12ccf-f20a-4f8e-a2f4-250675612a5f" />
+
+### 2. ZIP-Datei extrahieren oder Klonen
 Falls das Projekt als ZIP-Datei heruntergeladen wurde, beide Projektordner extrahieren.
 <img width="836" height="200" alt="image" src="https://github.com/user-attachments/assets/e52d6fe7-02ca-4353-b6cd-665d4243fb41" />
+#### Klonen 
+<img width="819" height="33" alt="image" src="https://github.com/user-attachments/assets/e456d4c0-91c8-47a8-aea5-b058c0c86a8f" />
+
 ### 3. Backend öffnen
 Das Backend in einer geeigneten Java-IDE öffnen.
 <img width="1907" height="730" alt="image" src="https://github.com/user-attachments/assets/6e14d987-f1a3-4fe1-bd23-271d12164b72" />
